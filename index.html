@@ -4,10 +4,91 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <title>MyProduct</title>
 </head>
-<body>
+<body class="site-body">
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="header__logo-link" href="./index.html">
+          <img class="header__logo-img" src="./images/site-logo.svg" width="40" height="36" alt="site logo">
+          <p class="header__logo-text">Product</p>
+        </a>
+        <nav class="header__right">
+          <ol class="header__list">
+            <li class="header__item">
+              <a class="header__link active" href="#">Product</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Costomers</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Pricing</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Resources</a>
+            </li>
+          </ol>
+          <a class="header__in" href="#">Sign In</a>
+          <a class="header__up" href="#">Sign Up</a>
+          <input class="header__black" type="checkbox">
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__title">Work at the speed of thought</h1>
+            <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+            <div class="hero__link-box">
+              <a class="hero__link" href="#">Get started</a>
+              <a class="hero__video-link" href="#">
+                <svg class="hero__svg" width="17" height="19" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.852 8.53c.739.435.739 1.505 0 1.94L2.195 18.503c-.75.44-1.695-.1-1.695-.97V1.467c0-.87.945-1.41 1.695-.97L15.852 8.53Z" fill="currentColor"/></svg>
+                Watch the Video</a>
+            </div>
+          </div>
+          <picture class="hero__img-box">
+            <!-- WEBP -->
+            <source
+              type="image/webp"
+              media="(max-width:576px)"
+              srcset="./images/hero-img-mobile.webp 1x, ./images/hero-img-mobile@2x.webp 2x"
+            />
+            <source
+              type="image/webp"
+              srcset="./images/hero-img.webp 1x, ./images/hero-img@2x.webp 2x"
+            />
+
+            <!-- PNG -->
+            <source
+              media="(max-width:576px)"
+              srcset="./images/hero-img-mobile.png 1x, ./images/hero-img-mobile@2x.png 2x"
+            />            
+            <img
+              class="hero__img"
+              src="./images/hero-img.png"
+              srcset="./images/hero-img.png 1x, ./images/hero-img@2x.png 2x"
+              width="600" 
+              height="556"
+              alt="The picture shows 4 people holding a phone next to a big phone ">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+  </main>
   
+
+
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
