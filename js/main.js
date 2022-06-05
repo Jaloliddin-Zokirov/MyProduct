@@ -16,9 +16,9 @@ elIcon.addEventListener('click', function () {
 })
 
 
-
+var elIcon = document.querySelector('.header__icon')
 var elRight = document.querySelector('.header__right')
 
-elSpan.addEventListener('click', function () {
+elIcon.addEventListener('click', function () {
   elRight.classList.toggle('header__right--on')
 })
