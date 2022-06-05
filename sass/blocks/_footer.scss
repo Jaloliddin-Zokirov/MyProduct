@@ -1,13 +1,147 @@
+.site-footer{
+  padding-bottom: 46px;
+}
+
+.footer__box{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.footer__logo-link{
+  display: inline-block;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+.footer__link{
+  display: inline-block;
+  margin-right: 16px;
+  text-decoration: none;
+
+  &:nth-child(3){
+    margin-right: 0;
+  }
+}
+
+.footer__subject{
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: $frame-56;
+}
+
+.footer__list{
+  @include list-global;
+}
+
+.footer__item{
+  margin-bottom: 4px;
+}
+
+.footer__item-link{
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  color: $frame-56;
+}
+
+.footer__desc{
+  display: inline-block;
+  width: 100%;
+  max-width: 260px;
+  margin-bottom: 34px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: $frame-56;
+}
+
+.footer__inp{
+  width: 100%;
+  max-width: 325px;
+  margin-bottom: 21px;
+  padding: 10px 15px;
+  font-size: 16px;
+  line-height: 28px;
+  color: $frame-51;
+  background-color: $frame-57;
+  border: none;
+  border: 1px solid $frame-51;
+  border-radius: 4px;
+}
+
+.footer__btn{
+  display: inline-block;
+  padding: 8px 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: $frame-57;
+  background-color: $frame-53;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer__info{
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: $frame-56;
+}
 
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
+
+
+@media only screen and (max-width: 520px) {
+
+  .footer__box{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 44px;
+  }
+
+  .footer__link-box{
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .footer__list-box{
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .footer__quation{
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// @media
+// only screen and (-webkit-min-device-pixel-ratio: 2),
+// only screen and (   min--moz-device-pixel-ratio: 2),
+// only screen and (     -o-min-device-pixel-ratio: 2/1),
+// only screen and (        min-device-pixel-ratio: 2),
+// only screen and (                min-resolution: 192dpi),
+// only screen and (                min-resolution: 2dppx) { 
   
 
   
-} 
+// } 

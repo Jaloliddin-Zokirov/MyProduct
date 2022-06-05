@@ -1,0 +1,59 @@
+.advertising{
+  margin-bottom: 150px;
+}
+
+.advertising__box{
+  width: 100%;
+  max-width: 968px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 49px 51px 56px;
+  background-color: $frame-53;
+  border-radius: 32px;
+  background-image: url("../images/advertising-bgi.png");
+  background-repeat: no-repeat;
+  background-size: 451px 370px;
+  background-position: top right;
+}
+
+.advertising__inner{
+  width: 100%;
+  max-width: 450px;
+}
+
+.advertising__title{
+  margin: 0;
+  margin-bottom: 70px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: $frame-57;
+}
+
+.advertising__link{
+  display: inline-block;
+  padding: 10px 34px 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: $frame-53;
+  background-color: $frame-57;
+  border-radius: 8px;
+}
+
+
+
+
+@media only screen and (max-width: 520px) {
+
+  .advertising__box{
+    padding: 17px 21px 373px;
+    background-size: 351px 331px;
+    background-position: bottom center;
+  }
+
+  .advertising__inner{
+    text-align: center;
+  }
+}

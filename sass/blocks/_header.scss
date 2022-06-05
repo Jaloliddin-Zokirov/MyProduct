@@ -12,19 +12,6 @@
   text-decoration: none;
 }
 
-.header__logo-img{
-  display: inline-block;
-  margin-right: 16px;
-}
-
-.header__logo-text{
-  margin: 0;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 28px;
-  color: $frame-52;
-}
-
 .header__right{
   @include flex-starter;
   margin-left: auto;

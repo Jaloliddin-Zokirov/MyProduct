@@ -1,0 +1,105 @@
+.client{
+  margin-bottom: 150px;
+}
+
+.client__title-box{
+  width: 100%;
+  max-width: 537px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.client__title{
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  color: $frame-56;
+}
+
+.client__text{
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: $frame-56;
+}
+
+.client__list{
+  @include flex-starter;
+  justify-content: center;
+  @include list-global;
+}
+
+.client__item{
+  width: 100%;
+  max-width: 327px;
+  margin-right: 64px;
+  padding: 62px 26px 24px;
+  background-color: $frame-57;
+  border: 1px solid $frame-62;
+  border-radius: 5px;
+  background-image: url("../images/star.png");
+  background-repeat: no-repeat;
+  background-size: 106px 18px;
+  background-position: top 28px left 28px;
+
+  &:nth-child(3){
+    margin-right: 0;  
+  }
+}
+
+.client__desc{
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: $frame-60;
+}
+
+.client__img-box{
+  @include flex-starter;
+}
+
+.client__img{
+  margin-right: 14px;
+}
+
+.client__info{
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: $frame-53;
+}
+
+.client__subinfo{
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: $frame-61;
+}
+
+
+
+@media only screen and (max-width: 520px) {
+
+  .client__list{
+    flex-direction: column;
+  }
+
+  .client__item{
+    margin-right: 0;
+    margin-bottom: 32px;
+
+    &:nth-child(3){
+      margin-right: 0;
+      margin-bottom: 32px;
+    }
+  }
+}
