@@ -1,0 +1,255 @@
+.process{
+  margin-bottom: 150px;
+  padding: 53px 0 0;
+  background-image: url("../images/process-bgi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+}
+
+.process__inner{
+  display: inline-block;
+  width: 100%;
+  max-width: 542px;
+  margin-bottom: 32px;
+}
+
+.process__title{
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: $frame-56;
+}
+
+.process__text{
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: $frame-56;
+}
+
+.process__list{
+  width: 100%;
+  max-width: 963px;
+  @include flex-starter;
+  justify-content: center;
+  flex-wrap: wrap;
+  @include list-global;
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
+}
+
+.process__item{
+  @include flex-starter;
+  flex-direction: row;
+  margin-right: 178px;
+  margin-bottom: 24px;
+
+  &:nth-child(2){
+    margin-right: 0;
+    padding-right: 41px;
+    flex-direction: row-reverse;
+  }
+
+  &:nth-child(3){
+    margin-bottom: 0;
+    margin-right: 191px;
+    flex-direction: row-reverse;
+  }
+
+  &:nth-child(4){
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.process__img{
+  display: block;
+  margin-right: 16px;
+}
+
+.process__item:nth-child(2) > .img-box > .process__img {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+.process__item:nth-child(3) > .img-box > .process__img {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+.process__desc{
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $frame-59;
+  background-color: $frame-57;
+  box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+  border-radius: 26.5px;
+
+  &::before{
+    position: absolute;
+    bottom: -8.5px;
+    left: 32px;
+    width: 17px;
+    height: 17px;
+    background-color: $frame-57;
+    border-radius: 50%;
+    content: "";
+  }
+
+  &::after{
+    position: absolute;
+    bottom: -17px;
+    left: 21px;
+    width: 9px;
+    height: 9px;
+    background: $frame-57;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 50%;
+    content: "";
+  }
+}
+
+.process__item:nth-child(2) > .process__desc {
+  
+  &::before{
+    right: 32px;
+    left: auto;
+    
+  }
+
+  &::after{
+    right: 21px;
+    left: auto;
+    
+  }
+}
+
+.process__item:nth-child(3) > .process__desc {
+  
+  &::before{
+    right: 32px;
+    left: auto;
+    
+  }
+
+  &::after{
+    right: 21px;
+    left: auto;
+    
+  }
+}
+
+.process__item:nth-child(4) > .process__desc {
+  
+  &::before{
+    right: 32px;
+    left: auto;
+    
+  }
+
+  &::after{
+    right: 21px;
+    left: auto;
+    
+  }
+}
+
+.process__link{
+  display: inline-block;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: $frame-53;
+  border-radius: 4px;
+}
+
+
+
+
+@media only screen and (max-width: 520px) {
+
+  .process__list{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .process__item{
+    margin-right: 0;
+    margin-bottom: 32px;
+    margin-left: 0;
+
+    &:nth-child(2){
+      padding-right: 0;
+      order: 1;
+    }
+
+    &:nth-child(3){
+      margin-right: 0;
+      margin-bottom: 32px;
+      flex-direction: row-reverse;
+    }
+
+    &:nth-child(4){
+      margin-right: 0;
+      margin-bottom: 32px;
+      flex-direction: row;
+    }
+  }
+
+  .process__item:nth-child(3) > .img-box > .process__img {
+    margin-right: 0;
+    margin-left: 16px;
+  }
+
+  .process__item:nth-child(4) > .img-box > .process__img {
+    margin-right: 16px;
+    margin-left: 0;
+  }
+
+  .process__item:nth-child(3) > .process__desc {
+  
+    &::before{
+      right: 32px;
+      left: auto;
+      
+    }
+  
+    &::after{
+      right: 21px;
+      left: auto;
+      
+    }
+  }
+
+  .process__item:nth-child(4) > .process__desc {
+  
+    &::before{
+      right: auto;
+      left: 32px;
+      
+    }
+  
+    &::after{
+      right: auto;
+      left: 21px;
+      
+    }
+  }
+
+  
+}
