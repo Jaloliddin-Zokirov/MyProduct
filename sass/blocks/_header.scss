@@ -21,14 +21,17 @@
   @include flex-starter;
   justify-content: space-between;
   @include list-global;
-  margin-right: 24px;
 }
 
 .header__item{
   margin-right: 30px;
+  
+  &:nth-child(4) {
+    margin-right: 24px;
+  }
 
-  &:nth-child(4){
-    margin-right: 0;
+  &:nth-child(5){
+    margin-right: 24px;
   }
 }
 
@@ -46,7 +49,6 @@
 
 .header__in{
   display: inline-block;
-  margin-right: 24px;
   padding: 10px 24px;
   font-weight: 600;
   font-size: 16px;
@@ -54,12 +56,12 @@
   text-decoration: none;
   color: $frame-52;
   border: 1px solid $frame-51;
+  background-color: transparent;
   border-radius: 4px;
 }
 
 .header__up{
   display: inline-block;
-  margin-right: 24px;
   padding: 10px 24px;
   font-weight: 600;
   font-size: 16px;
@@ -67,6 +69,7 @@
   text-decoration: none;
   color: $frame-57;
   background-color: $frame-53;
+  border: none;
   border-radius: 4px;
 }
 
