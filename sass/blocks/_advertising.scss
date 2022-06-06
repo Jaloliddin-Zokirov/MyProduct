@@ -8,7 +8,7 @@
   margin-right: auto;
   margin-left: auto;
   padding: 49px 51px 56px;
-  background-color: $frame-53;
+  background-color: var(--frame-53);
   border-radius: 32px;
   background-image: url("../images/advertising-bgi.png");
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
-  color: $frame-57;
+  color: var(--frame-57);
 }
 
 .advertising__link{
@@ -37,8 +37,8 @@
   font-size: 20px;
   line-height: 30px;
   text-decoration: none;
-  color: $frame-53;
-  background-color: $frame-57;
+  color: var(--frame-53);
+  background-color: var(--frame-57);
   border-radius: 8px;
 }
 

@@ -1,29 +1,31 @@
-$frame-50: #afafaf;
-$frame-51: #BCD0E5;
-$frame-52: #173A56;
-$frame-53: #02897A;
-$frame-54: #4D8DFF;
-$frame-55: #740A76;
-$frame-56: #22343d;
-$frame-57: #FFFFFF;
-$frame-58: #F03E3D;
-$frame-59: #2F281E;
-$frame-60: #737373;
-$frame-61: #252B42;
-$frame-62: #DEDEDE;
+:root{
+  --frame-50: #afafaf;
+  --frame-51: #BCD0E5;
+  --frame-52: #173A56;
+  --frame-53: #02897A;
+  --frame-54: #4D8DFF;
+  --frame-55: #740A76;
+  --frame-56: #22343d;
+  --frame-57: #FFFFFF;
+  --frame-58: #F03E3D;
+  --frame-59: #2F281E;
+  --frame-60: #737373;
+  --frame-61: #252B42;
+  --frame-62: #DEDEDE;
+}
 
 .site-body--white{
-  $frame-50: #afafaf;
-  $frame-51: #BCD0E5;
-  $frame-52: #FFFFFF;
-  $frame-53: #02897A;
-  $frame-54: #4D8DFF;
-  $frame-55: #740A76;
-  $frame-56: #FFFFFF;
-  $frame-57: #FFFFFF;
-  $frame-58: #F03E3D;
-  $frame-59: #2F281E;
-  $frame-60: #737373;
-  $frame-61: #252B42;
-  $frame-62: #DEDEDE;
+  --frame-50: #afafaf;
+  --frame-51: #BCD0E5;
+  --frame-52: #FFFFFF;
+  --frame-53: #02897A;
+  --frame-54: #4D8DFF;
+  --frame-55: #740A76;
+  --frame-56: #FFFFFF;
+  --frame-57: #FFFFFF;
+  --frame-58: #F03E3D;
+  --frame-59: #2F281E;
+  --frame-60: #737373;
+  --frame-61: #252B42;
+  --frame-62: #DEDEDE;
 }

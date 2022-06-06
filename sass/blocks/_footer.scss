@@ -15,6 +15,22 @@
   text-decoration: none;
 }
 
+.footer__logo-img{
+  display: block;
+}
+
+.whites{
+  display: none;
+}
+
+.site-body--white > .site-footer > .container > .footer__box > .footer__link-box > .footer__logo-link > .footer__logo-img{
+  display: none;
+}
+
+.site-body--white > .site-footer > .container > .footer__box > .footer__link-box > .footer__logo-link > .whites{
+  display: block;
+}
+
 .footer__link{
   display: inline-block;
   margin-right: 16px;
@@ -31,7 +47,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .footer__list{
@@ -48,7 +64,7 @@
   font-size: 16px;
   line-height: 35px;
   text-decoration: none;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .footer__desc{
@@ -59,7 +75,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .footer__inp{
@@ -69,10 +85,10 @@
   padding: 10px 15px;
   font-size: 16px;
   line-height: 28px;
-  color: $frame-51;
-  background-color: $frame-57;
+  color: var(--frame-51);
+  background-color: var(--frame-57);
   border: none;
-  border: 1px solid $frame-51;
+  border: 1px solid var(--frame-51);
   border-radius: 4px;
 }
 
@@ -82,8 +98,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: $frame-57;
-  background-color: $frame-53;
+  color: var(--frame-57);
+  background-color: var(--frame-53);
   border: none;
   border-radius: 4px;
 }
@@ -94,7 +110,7 @@
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 

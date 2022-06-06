@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+.site-body--white > .site-main > .process{
+  background-image: url("../images/process-bgi-black.png");
+}
+
 .process__inner{
   display: inline-block;
   width: 100%;
@@ -22,7 +26,7 @@
   font-size: 32px;
   line-height: 48px;
   text-align: center;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .process__text{
@@ -31,14 +35,14 @@
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .process__list{
   width: 100%;
   max-width: 963px;
   @include flex-starter;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   @include list-global;
   margin-right: auto;
@@ -49,7 +53,6 @@
 .process__item{
   @include flex-starter;
   flex-direction: row;
-  margin-right: 178px;
   margin-bottom: 24px;
 
   &:nth-child(2){
@@ -92,8 +95,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: $frame-59;
-  background-color: $frame-57;
+  color: var(--frame-59);
+  background-color: var(--frame-57);
   box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
   border-radius: 26.5px;
 
@@ -103,7 +106,7 @@
     left: 32px;
     width: 17px;
     height: 17px;
-    background-color: $frame-57;
+    background-color: var(--frame-57);
     border-radius: 50%;
     content: "";
   }
@@ -114,7 +117,7 @@
     left: 21px;
     width: 9px;
     height: 9px;
-    background: $frame-57;
+    background: var(--frame-57);
     box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
     border-radius: 50%;
     content: "";
@@ -174,7 +177,7 @@
   line-height: 24px;
   text-decoration: none;
   color: #FFFFFF;
-  background-color: $frame-53;
+  background-color: var(--frame-53);
   border-radius: 4px;
 }
 

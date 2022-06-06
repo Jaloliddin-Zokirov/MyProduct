@@ -8,7 +8,7 @@
   margin-bottom: 150px;
   background-image: url("../images/management-bgi.png");
   background-repeat: no-repeat;
-  background-size: 540px 474px;
+  background-size: 540px 465px;
   background-position: top right;
 
   &:nth-child(2n + 1){
@@ -37,7 +37,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .management__title{
@@ -46,7 +46,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .management__content{
@@ -65,7 +65,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .management__desc{
@@ -74,7 +74,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .management__excerpt-box{
@@ -89,7 +89,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: $frame-56;
+  color: var(--frame-56);
   background-image: url("../images/right-icon-one.png");
   background-repeat: no-repeat;
   background-size: 35px;

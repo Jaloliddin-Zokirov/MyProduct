@@ -12,7 +12,7 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 51px;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .price__text{
@@ -21,7 +21,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: $frame-56;
+  color: var(--frame-56);
 }
 
 .price__form{
@@ -48,33 +48,33 @@
   @include flex-starter;
   flex-direction: column;
   padding: 24px 0 114px;
-  background-color: $frame-57;
+  background-color: #fff;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
 
 .price__choice:checked ~ .price__list > .price__item{
-  background-color: $frame-53;
+  background-color: var(--frame-53);
 }
 
 .price__choice:checked ~ .price__list > .price__item > .price__subject{
-  color: $frame-57;
+  color: #fff;
 }
 
 .price__choice:checked ~ .price__list > .price__item > .price__desc{
-  color: $frame-57;
+  color: #fff;
 }
 
 .price__choice:checked ~ .price__list > .price__item > .price__info{
-  color: $frame-57;
+  color: #fff;
 }
 
 .price__choice:checked ~ .price__list > .price__item > .price__inner > .price__quantity{
-  color: $frame-57;
+  color: #fff;
 }
 
 .price__choice:checked ~ .price__list > .price__item > .price__inner > .price__inner-box > .price__character{
-  color: $frame-57;
+  color: #fff;
 }
 
 .price__choice:checked ~ .price__list > .price__item > .price__inner > .price__inner-box > .price__lifetime{
@@ -82,8 +82,8 @@
 }
 
 .price__choice:checked ~ .price__order{
-  color: $frame-53;
-  background-color: $frame-57;
+  color: var(--frame-53);
+  background-color: #fff;
 }
 
 .price__subject{
@@ -93,7 +93,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
-  color: $frame-56;
+  color: #22343d;
 }
 
 .price__desc{
@@ -103,7 +103,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 40px;
-  color: $frame-56;
+  color: #22343d;
 }
 
 .price__inner{
@@ -118,7 +118,7 @@
   font-size: 76px;
   line-height: 100px;
   text-align: center;
-  color: $frame-53;
+  color: var(--frame-53);
 } 
 
 .price__inner-box{
@@ -134,7 +134,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  color: $frame-53;
+  color: var(--frame-53);
 }
 
 .price__lifetime{
@@ -142,7 +142,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: $frame-50;
+  color: var(--frame-50);
 }
 
 .price__info{
@@ -151,7 +151,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  color: $frame-56;
+  color: #22343d;
 }
 
 .info{
@@ -167,8 +167,8 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: $frame-57;
-  background-color: $frame-53;
+  color: #fff;
+  background-color: var(--frame-53);
   border: none;
   border-radius: 8px;
 }
