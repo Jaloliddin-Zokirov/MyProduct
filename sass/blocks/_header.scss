@@ -158,7 +158,7 @@
   position: absolute;
   height: 6px;
   width: 100%;
-  background-color: #173A56;
+  background-color: var(--frame-52);
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -239,16 +239,22 @@
   .header__item{
     margin-right: 0;
     margin-bottom: 10px;
+
+    &:nth-child(4){
+      margin-right: 0;
+    }
+
+    &:nth-child(5){
+      margin-right: 0;
+    }
+  }
+
+  .header__link{
+    color: #22343d;
   }
 
   .header__in{
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-
-  .header__up{
-    margin-right: 0;
-    margin-bottom: 15px;
+    color: #22343d;
   }
 
   .header__icon{

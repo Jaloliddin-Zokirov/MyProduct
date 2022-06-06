@@ -157,14 +157,14 @@
 .process__item:nth-child(4) > .process__desc {
   
   &::before{
-    right: 32px;
-    left: auto;
+    right: auto;
+    left: 32px;
     
   }
 
   &::after{
-    right: 21px;
-    left: auto;
+    right: auto;
+    left: 21px;
     
   }
 }
