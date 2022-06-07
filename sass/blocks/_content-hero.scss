@@ -1,0 +1,122 @@
+.content-hero{
+  margin-top: 76px;
+  margin-bottom: 67px;
+}
+
+.content-hero__box{
+  padding: 1px 0 56px;
+  background-image: url("../images/content-hero-bgi.png");
+  background-repeat: no-repeat;
+  background-size: 541px 482px;
+  background-position: top right;
+}
+
+.content-hero__subbox{
+  width: 100%;
+  max-width: 500px;
+}
+
+.content-hero-title-box{
+  width: 100%;
+  max-width: 360px;
+}
+
+.content-hero__title{
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--frame-56);
+}
+
+.content-hero__text{
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--frame-56);
+}
+
+.content-hero__list{
+  margin-bottom: 24px;
+}
+
+.content-hero__inner{
+  position: relative;
+}
+
+.content-hero__emile{
+  width: 100%;
+  max-width: 470px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  color: var(--frame-56);
+  padding: 25px 8px 25px 27px;
+  border: 1px solid var(--frame-66);
+  border-radius: 100px;
+}
+
+.content-hero__btn{
+  position: absolute;
+  top: -15px;
+  right: 10px;
+  width: 117px;
+  padding: 25px 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0px;
+  color: var(--frame-57);
+  background: var(--frame-53);
+  border: none;
+  border-radius: 100px;
+}
+
+.content-hero__join{
+  padding: 15px 0 15px 130px;
+  background-image: url("../images/there-avatar.png");
+  background-repeat: no-repeat;
+  background-size: 121px 50px;
+  background-position: center left;
+}
+
+.content-hero-subject{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--frame-56);  
+}
+
+.content-hero-desc{
+  color: var(--frame-53);
+}
+
+
+
+
+@media only screen and (max-width: 520px) {
+
+  .content-hero{
+    margin-top: 50px;
+    margin-bottom: 47px;
+  }
+
+  .content-hero__box{
+    padding: 1px 0 351px;
+    background-image: url("../images/content-hero-bgi-two.png");
+    background-repeat: no-repeat;
+    background-size: 359px 263px;
+    background-position: bottom center;
+  }
+
+  .content-hero__subbox{
+    text-align: center;
+  }
+
+  .content-hero-title-box{
+    display: inline-block;
+  }
+}
