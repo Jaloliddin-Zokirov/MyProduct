@@ -1,0 +1,49 @@
+.pricing-price{
+  padding: 50px 0 150px;
+}
+
+.pricing-price__subtitle{
+  display: block;
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: var(--frame-56);
+}
+
+.pricing-price__title{
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--frame-56);  
+}
+
+.pricing-price__text{
+  margin: 0;
+  margin-bottom: 49px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--frame-56);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 520px) {
+
+  .pricing-price__subtitle{
+    margin-bottom: 30px;
+  }
+
+  .pricing-price__title{
+    margin-bottom: 18px;
+  }
+}

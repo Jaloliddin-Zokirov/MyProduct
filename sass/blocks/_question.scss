@@ -1,0 +1,96 @@
+.question{
+  margin-bottom: 150px;
+}
+
+.question__title{
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: center;
+  color: var(--frame-56);
+}
+
+.question__text{
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: var(--frame-56);
+}
+
+.question__list{
+  @include flex-starter;
+  flex-direction: column;
+}
+
+.question__item, .question__item-two, .question__item-there, .question__item-four{
+  width: 100%;
+  max-width: 920px;
+  margin-bottom: 16px;
+  padding: 0 0 22px 40px;
+  border-bottom: 1px solid var(--frame-58);
+  background-image: url("../images/plus-circle.png");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: top left;
+
+  &--on{
+    background-image: url("../images/minus-circle.png");
+  }
+}
+
+.question__item-two--on{
+  background-image: url("../images/minus-circle.png");
+}
+
+.question__item-there--on{
+  background-image: url("../images/minus-circle.png");
+}
+
+.question__item-four--on{
+  background-image: url("../images/minus-circle.png");
+}
+
+.question__subject{
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--frame-56);
+}
+
+.subject{
+  margin-bottom: 14px;
+}
+
+.question__desc{
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--frame-56);
+}
+
+
+@media only screen and (max-width: 520px) {
+
+  .question{
+    margin-bottom: 100px;
+  }
+
+  .question__item-two--on{
+    background-image: url("../images/minus-circle.png");
+  }
+  
+  .question__item-there--on{
+    background-image: url("../images/minus-circle.png");
+  }
+  
+  .question__item-four--on{
+    background-image: url("../images/minus-circle.png");
+  }
+}

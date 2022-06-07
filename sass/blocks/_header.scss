@@ -59,10 +59,6 @@
   color: var(--frame-56);
 }
 
-.active{
-  color: var(--frame-52);
-}
-
 .header__in{
   display: inline-block;
   padding: 10px 24px;
@@ -100,7 +96,7 @@
   height: var(--size);
   box-shadow: inset calc(var(--size) * 0.33) calc(var(--size) * -0.25) 0;
   border-radius: 999px;
-  color: hsl(240, 100%, 95%);
+  color: hsl(240, 1%, 61%);
   
   transition: all 500ms;
   
@@ -219,6 +215,7 @@
     position: absolute;
     top: -390px;
     left: calc(50% - 173px);
+    z-index: 100;
     flex-direction: column;
     padding: 30px 120px;
     background-color: var(--frame-57);

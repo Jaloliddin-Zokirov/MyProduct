@@ -25,9 +25,30 @@ elIcon.addEventListener('click', function () {
 
 
 
-// var elInp = document.querySelector('.price__choice')
-// var elBtn = document.querySelector('.price__order')
+var elCheck = document.querySelector('.question__check')
+var elSubject = document.querySelector('.question__item')
 
-// elInp.addEventListener('click', function () {
-//   elBtn.classList.toggle('on')
-// })
+elCheck.addEventListener('click', function () {
+  elSubject.classList.toggle('question__item--on')
+})
+
+var elChecktwo = document.querySelector('.two')
+var elSubjecttwo = document.querySelector('.question__item-two')
+
+elChecktwo.addEventListener('click', function () {
+  elSubjecttwo.classList.toggle('question__item-two--on')
+})
+
+var elCheckthere = document.querySelector('.there')
+var elSubjectthere = document.querySelector('.question__item-there')
+
+elCheckthere.addEventListener('click', function () {
+  elSubjectthere.classList.toggle('question__item-there--on')
+})
+
+var elCheckfour = document.querySelector('.four')
+var elSubjectfour = document.querySelector('.question__item-four')
+
+elCheckfour.addEventListener('click', function () {
+  elSubjectfour.classList.toggle('question__item-four--on')
+})
