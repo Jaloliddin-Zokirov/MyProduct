@@ -65,6 +65,10 @@
   display: none;
 }
 
+.site-body--white > .site-main > .resources-contact > .container > .resources-contact__box > .resources-contact__card > .resources-contact-one-card, .resources-contact-two-card{
+  border-radius: 16px;
+}
+
 .resources-contact__list{
   width: 100%;
   max-width: 868px;
