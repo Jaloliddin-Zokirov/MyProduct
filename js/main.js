@@ -1,13 +1,23 @@
-var elBody = document.querySelector('.header__black')
-var elSpan = document.querySelector('.site-body')
+let elBody = document.querySelector('.site-body')
+let elDark = document.querySelector('.header__black')
 
-elBody.addEventListener('click', function () {
-  elSpan.classList.toggle('site-body--white')
+let theme = false
+
+function chengeTheme(){
+  if(window.localStorage.getItem('theme') == 'site-body--white'){
+    elBody.classList.add('site-body--white')
+    elDark.classList.add('light')
+  } else{
+    elBody.classList.remove('site-body--white')
+    elDark.classList.remove('light')
+  }
+}
+elDark.addEventListener('click', function(){
+  theme = !theme
+  window.localStorage.setItem('theme', theme ? 'site-body--white' : 'light')
+  chengeTheme()
 })
-
-
-
-
+chengeTheme()
 
 var elIcon = document.querySelector('.header__icon')
 
